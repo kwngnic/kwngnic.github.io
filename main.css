@@ -1,5 +1,5 @@
 .header {
-]}
+}
 
 .header .navbar {
 	font-family: 'Open Sans', sans-serif;
@@ -21,4 +21,9 @@
 	padding-left: 40px;
 	color: #0b2356;
 	font-size: 30px;
+}
+
+.header .navbar a:hover{
+	font-weight: bold;
+	color: #65b8a2;
 }
