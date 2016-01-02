@@ -1,0 +1,24 @@
+.header {
+]}
+
+.header .navbar {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header .navbar a {
+	color: #5b5699;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding-right: 20px
+}
+
+.header .navbar li {
+	display: inline;
+}
+
+.header h2 {
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 40px;
+	color: #0b2356;
+	font-size: 30px;
+}
