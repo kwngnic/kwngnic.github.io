@@ -20,7 +20,7 @@ header .navbar li {
 	display: inline;
 }
 
-header h2 {
+header h1 {
 	font-family: 'Open Sans', sans-serif;
 	padding-left: 40px;
 	color: #0b2356;
@@ -29,7 +29,6 @@ header h2 {
 
 header .navbar a:hover{
 	font-weight: bold;
-	color: #65b8a2;
 }
 
 .intro p {

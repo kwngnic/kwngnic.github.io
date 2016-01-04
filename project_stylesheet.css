@@ -1,0 +1,21 @@
+html body {
+	height: 100%
+}
+
+header h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 35px
+}
+
+.project-info .tab-content p {
+	color:#5b5699;
+	padding-bottom: 100%
+}
+
+body a {
+	color: #5b5699;
+}
+
+.fa-github-square {
+	color: #5b5699;
+}

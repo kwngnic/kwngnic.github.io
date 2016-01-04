@@ -1,9 +1,47 @@
 <!DOCTYPE html>
 
 <html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href=project_stylesheet.css>
+		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="foundation-6/css/foundation.css">
+		<link rel="stylesheet" href="jquery-ui-1.11.4/jquery-ui.min.css">
+		<script src="jquery-ui-1.11.4/external/jquery/jquery.js"></script>
+		<script src="jquery-ui-1.11.4/jquery-ui.min.js"></script>
+		
+	</head>
+
 	<body>
-	<h1> Placeholder </h1>
+		<header>
+		<h1> <div class="text-center"> <a href="projects.html"> Projects </a></div></h1></header>
+		<div class="project-info">
+		<div id="tabs">
+			<ul>
+				<li><a href="#tab1">Music By Mood
+				<i class="fa fa-headphones"></i></a></li>
+				<li><a href="#tab2">Recipe Finder
+				<i class="fa fa-shopping-basket"></i></a></li>
+			</ul>
+					<div id="tab1">
+						<p>Application that analyzed a users' music library utilizing the EchoNest music analysis api, 
+							and sorted them in folders, based on the song's tempo and volume. <br> Used: Python, EchoNest API.</p>
+						<a href="https://github.com/Will-Lo/Tech-Retreat-Demo"> <i class="fa fa-github-square fa-5x"></i></a>
+					</div>
+					<div id="tab2">
+						<p>Application that would provide a list of recipes to the user once given a list of ingredients. <br> Used: Python, Edamam API.</p>
+						<a href="https://github.com/Will-Lo/Food-API"> <i class="fa fa-github-square fa-5x"></i></a>
+					</div>
+				</div>
+			</div>
+
+		
+		<script>
+		  $(function() {
+			$( "#tabs" ).tabs();
+		  });
+		</script>
 	</body>
-
-
 </html>
