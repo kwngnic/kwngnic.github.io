@@ -19,3 +19,21 @@ body a {
 .fa-github-square {
 	color: #5b5699;
 }
+
+.tabs-content #panel1 {
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 15%;
+	margin-right: 15%;
+	font-size: 17px;
+	text-align: center;
+	color: #5b5699
+}
+
+.tabs-content #panel2 {
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 15%;
+	margin-right: 15%;
+	font-size: 17px;
+	text-align: center;
+	color: #5b5699
+}
