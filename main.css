@@ -1,13 +1,7 @@
-header {
-}
-
 header .navbar {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Slab', sans-serif;
 }
 
-header .columns {
-	border-style: outset
-}
 
 header .navbar a {
 	color: #5b5699;
@@ -21,20 +15,24 @@ header .navbar li {
 }
 
 header h1 {
-	font-family: 'Open Sans', sans-serif;
-	padding-left: 40px;
+	font-family: 'Quicksand', sans-serif;
+	padding-left: 20px;
 	color: #0b2356;
 	font-size: 30px;
+	background-color: #D3E3E8;
+	text-align: center;
 }
 
+
 header .navbar a:hover{
-	font-weight: bold;
+	background-color: #D3E3E8
 }
 
 .intro p {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Slab', sans-serif;
 	margin-left: 25%;
 	margin-right: 25%;
 	font-size: 17px;
 	text-align: center;
 }
+
