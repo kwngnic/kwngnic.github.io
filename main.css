@@ -3,16 +3,12 @@ header .navbar {
 }
 
 
-header .navbar a {
+header .navbar .button-group{
 	color: #5b5699;
 	text-transform: uppercase;
-	font-size: 20px;
 	padding-right: 20px
 }
 
-header .navbar li {
-	display: inline;
-}
 
 header h1 {
 	font-family: 'Quicksand', sans-serif;
