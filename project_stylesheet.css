@@ -3,8 +3,9 @@ html body {
 }
 
 header h1{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 35px
+	font-family: 'Quicksand', sans-serif;
+	font-size: 35px;
+	background-color: #D3E3E8
 }
 
 .project-info .tab-content p {
@@ -21,7 +22,7 @@ body a {
 }
 
 .tabs-content #panel1 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Slab', sans-serif;
 	margin-left: 15%;
 	margin-right: 15%;
 	font-size: 17px;
@@ -30,7 +31,7 @@ body a {
 }
 
 .tabs-content #panel2 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Slab', sans-serif;
 	margin-left: 15%;
 	margin-right: 15%;
 	font-size: 17px;
