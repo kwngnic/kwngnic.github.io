@@ -1,8 +1,37 @@
 <!DOCTYPE html>
 
 <html>
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href=main.css>
+		<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="foundation-6/css/foundation.css">
+		<script src="foundation-6/js/vendor/jquery.min.js"></script>
+		<script src="foundation-6/js/foundation.min.js"></script>
+		<link rel="stylesheet" href="normalize.css">
+	</head>
 	<body>
-	<h1> Placeholder </h1>
+		<h1> Notes </h1>
+		<ul class="accordion" data-accordion data-allow-all-closed="true" role="tablist"  data-multi-expand="true">
+			<li class="accordion-item">
+				<a href="#panel1d" role="tab" class="accordion-title" id="panel1d-heading" aria-controls="panel1d"> MATH 136 </a>
+					<div id="panel1d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel1d-heading">
+						<a href="#"> Check back soon! </a> 
+					</div>
+			</li>
+			<li class="accordion-item">
+				<a href= "#panel1d" role="tab" class="accordion-title" id="panel1d-heading" aria-controls="panel2d"> MATH 138 </a>
+					<div id="panel2d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel2d-heading">
+						<a href="Notes/Math 138 Lecture 1.pdf"> Lecture 001 </a>
+					</div>
+			</li>
+		</ul>
+	
+	<script> 
+		$(document).foundation(); 
+	</script>
 	</body>
 
 
