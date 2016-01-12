@@ -4,8 +4,9 @@ html body {
 
 header h1{
 	font-family: 'Quicksand', sans-serif;
-	font-size: 35px;
-	background-color: #D3E3E8
+	font-size: 30px;
+	background-color: #D3E3E8;
+	text-align: center
 }
 
 .project-info .tab-content p {
