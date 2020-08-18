@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-import CatPanic from './assets/CatPanic.jpg';
+import ProfilePic from './assets/ProfilePic.jpg';
 
 const CircularImage = styled.img`
     border-radius: 50%;
@@ -29,7 +29,7 @@ class Headshot extends React.Component {
     render() {
         return(
             <HeadshotContainer>
-                <CircularImage src={CatPanic}/>
+                <CircularImage src={ProfilePic}/>
                 <IconContainer>
                     <p style={{ whiteSpace: 'pre' }}> Nicholas Kwong </p>
                 </IconContainer>
